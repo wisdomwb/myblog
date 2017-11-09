@@ -1,0 +1,17 @@
+footer.site-footer {
+  max-width: 1100px;
+  margin: 40px auto;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #999;
+}
+
+footer.site-footer h2 {
+  margin: 0 0 2px 0;
+  font-size: 28px;
+}
+
+footer.site-footer .footer-logo {
+  color: #777;
+}

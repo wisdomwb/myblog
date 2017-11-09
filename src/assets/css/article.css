@@ -1,0 +1,21 @@
+.wrapper-article .post-content pre {
+  background: #eee;
+  padding: 5px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+code {
+  font-size: 1rem;
+  color: #567482;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.wrapper-article div.post h2 {
+  text-align: center;
+}

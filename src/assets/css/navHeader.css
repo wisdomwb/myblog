@@ -1,0 +1,167 @@
+.nav-header {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+#logo {
+  float: left;
+}
+
+.logo {
+  width: 60px;
+}
+
+nav[role="navigation"] {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+nav[role="navigation"] ul {
+  padding: 0 0 20px 0;
+  margin-top: 0;
+}
+
+nav[role="navigation"] ul li {
+  display: inline;
+  margin: 0 60px 0 0;
+}
+
+nav[role="navigation"] ul li a.router-link-exact-active {
+  font-weight: 500;
+  color: #444;
+}
+
+nav[role="navigation"] ul li a {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  color: #999;
+}
+
+/*div.content-inner {*/
+/*max-width: 1100px;*/
+/*margin: 0 auto;*/
+/*}*/
+
+/*div.post {*/
+/*width: 60%;*/
+/*margin: 0 auto;*/
+/*padding: 40px 0 60px 0;*/
+/*}*/
+
+div.post header {
+  /*width: 60%;*/
+  /*margin: 0 auto 20px auto;*/
+}
+
+/*div.post h2 {*/
+/*margin: 0 20px 10px 0;*/
+/*font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+/*font-size: 22px;*/
+/*font-weight: 400;*/
+/*line-height: 1;*/
+/*text-transform: none;*/
+/*letter-spacing: .04em;*/
+/*}*/
+
+table.archive {
+  width: 100%;
+  margin: 0 auto;
+  margin: 30px auto 40px auto;
+  border-collapse: collapse;
+}
+
+table.archive td {
+  padding: 15px 20px 15px 0;
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+}
+
+table.archive td a {
+  display: block;
+  font-weight: 600;
+  text-decoration: none;
+  color: #444;
+}
+
+table.archive td a:hover {
+  color: #f00;
+}
+
+table.archive td em {
+  float: right;
+  font-size: 14px;
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+span.menu {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-header {
+    padding: 20px 0;
+  }
+
+  #logo {
+    float: none !important;
+    text-align: center;
+    padding: 0 0 15px 0;
+  }
+
+  #logo img {
+    width: 48px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  span.menu {
+    display: block;
+    position: absolute;
+    top: 28px;
+    opacity: .8;
+    font-weight: bolder;
+    right: 20px;
+    /*opacity: .2;*/
+    font-size: 40px;
+  }
+
+  nav[role="navigation"] {
+    display: none;
+    clear: left;
+    margin: 5px 0 10px 0;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  nav[role="navigation"].click {
+    display: block;
+  }
+
+  nav[role="navigation"] ul {
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    background: #f5f4f2 url(../texture.png) repeat top left fixed;
+  }
+
+  nav[role="navigation"] ul li {
+    display: block;
+    margin: 0;
+  }
+
+  nav[role="navigation"] ul li a {
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+}

@@ -1,0 +1,11 @@
+.wrapper-about article {
+  margin-top: 50px;
+}
+
+.wrapper-about .github {
+  font-size: 18px;
+}
+
+.wrapper-about .github:hover {
+  color: #f00;
+}
